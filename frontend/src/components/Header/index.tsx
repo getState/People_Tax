@@ -1,8 +1,8 @@
 import React from 'react';
 import * as Styled from './styled';
 
-const Header = () => {
-  return <Styled.Container>헤더</Styled.Container>;
+const Header: React.FC = () => {
+  return <Styled.Header></Styled.Header>;
 };
 
 export default Header;
